@@ -11,7 +11,7 @@ public class Application
 	public static void main(String[] args)
 	{
     //Construct all the components
-	  Model      model      = new Model();
+	  Model      model      = new Model(0, 0, 0, 10, 10, 60, 95);
 	  Controller controller = new Controller();
 	  View       view       = new View();
 	  

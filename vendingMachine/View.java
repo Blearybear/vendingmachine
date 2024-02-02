@@ -213,6 +213,12 @@ public class View extends JFrame {
 		  buyPepsi.setEnabled(false);
 		if (model.getCokeLeft() == 0)
 		  buyCoke.setEnabled(false);
+		if (model.getPepsiLeft() > 0){
+			buyPepsi.setEnabled(true);
+		}
+		if (model.getCokeLeft() > 0){
+			buyCoke.setEnabled(true);
+		}
 		  
 	}
 
